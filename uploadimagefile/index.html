@@ -1,5 +1,5 @@
 <?php
-require 'connection.php';
+require 'connection.html';
 if(isset($_POST["submit"])){
     $name = $_POST["name"];
     if($_FILES["image"]["error"] === 4){
@@ -35,7 +35,7 @@ if(isset($_POST["submit"])){
             echo
             "<script>
             alert('Successfully Added');
-            document.location.href = 'data.php';
+            document.location.href = 'data.html';
             </script>"
             ;   
         }
@@ -59,6 +59,6 @@ if(isset($_POST["submit"])){
         <button type="submit" name="submit">Submit</button>
     </form>
     <br>
-    <a href="data.php">Data</a>
+    <a href="data.html">Data</a>
 </body>
 </html>
