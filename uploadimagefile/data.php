@@ -1,4 +1,4 @@
-<?php require 'connection.html'; ?>
+<?php require 'connection.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -27,6 +27,6 @@
         <?php endforeach; ?>
     </table>
     <br>
-    <a href="../uploadimagefile/">Upload Image File</a>
+    <a href="index.php">Upload Image File</a>
 </body>
 </html>
